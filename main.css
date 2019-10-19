@@ -29,9 +29,25 @@ button.navbar-toggler:focus {
 
 .hamburger-box {
     height: 40px;
+    width: 40px;
     display: inline-block;
     position: relative;
-    width: 40px;
+    margin-top: 8px;
+    /*
+        We need to set margin-top to 8px because so that the toggler
+        can look horizontally centred with respect to the logo.
+
+        The side-effect of this is that the parent container's height
+        increases by 8px, making the entire top-bar look too low from
+        the top edge of the screen.
+
+        To compensate for this, we have to set the top margin of the
+        top bar to -8px.
+    */
+}
+
+#topbar {
+    margin-top: -8px;
 }
 
 .hamburger-inner,
@@ -103,6 +119,35 @@ button.navbar-toggler:focus {
     padding: 48px 32px;
 }
 
+@media (min-width: 768px) {
+    .navbar-collapse {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: translate(0);
+        box-shadow: none;
+        padding: 0;
+        margin-top: 8px;
+        /* 
+           Same thing we did with the hamburger box...
+           this one so that the nav links look horizontally centered with
+           respect to the logo.
+
+           The side effect has already been mitigated (once and for all,
+           in the case of the hamburger).
+        */
+
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+
+.btn-wrap {
+    margin-top: 56px;
+}
+
 .nav-link {
     font-size: 12px;
     font-weight: 600;
@@ -137,9 +182,44 @@ button.navbar-toggler:focus {
     margin-bottom: 12px;
 }
 
-.btn-wrap {
-    margin-top: 56px;
+@media (min-width: 768px) {
+    .btn-wrap {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 11px;
+    }
+
+    .nav-item:not(.btn-wrap) {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    .nav-link:not(.btn) {
+        border-bottom: 0;
+    }
+
+    .nav-link.btn:not(:last-of-type) {
+        margin-bottom: 0;
+    }
 }
+
+@media (min-width: 800px) {
+    .btn-wrap {
+        margin: 0 0 0 16px;
+    }
+
+    .nav-item:not(.btn-wrap) {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}
+
+@media (min-width: 840px) {
+    .btn-wrap {
+        margin: 0 0 0 36px;
+    }
+}
+
 
 
 
@@ -166,8 +246,36 @@ h1 {
 }
 
 .hero .actions {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     margin: 36px 0 0;
+}
+
+@media(min-width: 480px) {
+    .hero .actions .btn {
+        min-width: 144px;
+    }
+}
+
+@media(min-width: 620px) {
+    .hero .actions {
+        margin-top: 48px;
+    }
+
+    .hero .actions .btn {
+        min-width: 200px;
+    }
+}
+
+@media(min-width: 800px) {
+    .hero .actions {
+        margin-top: 64px;
+    }
+
+    .hero .actions .btn {
+        min-width: 200px;
+    }
 }
 
 
@@ -178,7 +286,6 @@ h1 {
     border-radius: 2px;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin: 2px 4px;
     font-weight: 600;
     line-height: 20px;
 }
@@ -195,6 +302,14 @@ h1 {
     min-width: 128px;
     margin-left: 8px;
     margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+    .btn.nav-link {
+        min-width: 100px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 }
 
 .btn-orange {
