@@ -186,12 +186,12 @@ button.navbar-toggler:focus {
     .btn-wrap {
         display: flex;
         align-items: center;
-        margin: 0 0 0 11px;
+        margin: 0 0 0 8px;
     }
 
     .nav-item:not(.btn-wrap) {
-        margin-right: 3px;
-        margin-left: 3px;
+        margin-right: 1px;
+        margin-left: 1px;
     }
 
     .nav-link:not(.btn) {
