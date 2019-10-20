@@ -259,9 +259,9 @@ h1 {
 }
 
 @media(min-width: 620px) {
-    .hero .actions {
+    /*.hero .actions {
         margin-top: 48px;
-    }
+    }*/
 
     .hero .actions .btn {
         min-width: 200px;
@@ -269,13 +269,13 @@ h1 {
 }
 
 @media(min-width: 800px) {
-    .hero .actions {
+/*    .hero .actions {
         margin-top: 64px;
     }
 
     .hero .actions .btn {
         min-width: 200px;
-    }
+    }*/
 }
 
 
@@ -356,4 +356,67 @@ h1 {
     color: white;
     background-color: rgba(124, 204, 188, 0.24);
     box-shadow: 0 0 0 0.2rem rgba(124, 204, 188, 0.76);
+}
+
+
+/* ****************************************** *
+    ICON BARS
+ * ****************************************** */
+.icon-bars .container-fluid {
+    max-width: 1024px;
+}
+.icon-bars .col {
+    /* three in a row, please */
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    /* also flex up so your children can fill you up */
+    display: flex;
+}
+
+@media (min-width: 420px) {
+    .icon-bars .col {
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+        max-width: 25%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    .icon-bars .col {
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.icon-bars .col a {
+    /* flex up, center children vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.client-bar-icon {
+    display: block;
+    width: 100%;
+}
+
+.icon-bars a img.client-bar-icon {
+    transition: all .4s ease-in;
+            filter: gray;
+    -webkit-filter: grayscale(0.24);
+            filter: grayscale(0.24);
+    opacity: .24;
+}
+
+.icon-bars a:hover img.client-bar-icon {
+    transition: all .16s ease-out;
+            filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    opacity: 1;
 }
