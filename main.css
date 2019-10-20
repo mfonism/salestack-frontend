@@ -11,6 +11,29 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+p {  
+    color: rgba(74,75,75,0.87);
+}
+
+a {
+    color: rgba(38, 184, 154);  
+}
+
+a:hover {
+    color: rgb(0, 150, 136);
+}
+
+a.cta {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a.cta:hover {
+    font-weight: 700;
+    text-decoration: none;
+}
+
 /* ****************************************** *
     TOP BAR (NAV BAR)
  * ****************************************** */
@@ -227,9 +250,9 @@ button.navbar-toggler:focus {
     PAGE HEADER 
  * ****************************************** */
 header.hero {
-    min-height: 548px;
+    min-height: 560px;
     padding: 64px 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.96);
     background-color: rgb(27, 175, 146);
 }
 
@@ -239,7 +262,8 @@ h1 {
 }
 
 .hero p {
-    font-size: 22px;
+    color: rgba(255, 255, 255, 0.96);
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 32px;
     margin: 0 0 2px;
@@ -362,6 +386,10 @@ h1 {
 /* ****************************************** *
     ICON BARS
  * ****************************************** */
+.icon-bars {
+    padding: 16px 0;
+    border-bottom: 1px solid #e9edf0;
+}
 .icon-bars .container-fluid {
     max-width: 1024px;
 }
@@ -370,8 +398,7 @@ h1 {
     -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
+    margin: 2.5px 0;
     /* also flex up so your children can fill you up */
     display: flex;
 }
@@ -381,8 +408,7 @@ h1 {
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
         max-width: 25%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+    margin: 5px 0;
     }
 }
 
@@ -420,3 +446,53 @@ img.client-bar-icon {
     -webkit-filter: grayscale(0);
     opacity: 1;
 }
+
+
+/* ****************************************** *
+    ICON BARS
+ * ****************************************** */
+.how-it-works {
+    padding: 64px 0 20px;
+}
+
+.how-it-works .col {
+    margin-bottom: 56px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.how-it-works img {
+    height: 66px;
+}
+
+.how-it-works h3 {
+    margin: 20px 0 8px;
+}
+
+.how-it-works p {
+    line-height: 32px;
+    margin-top: auto;
+    /*
+      let its top margin absorb all the remaining space
+      so that the paragraph looks as if it were
+      pushed down to the bottom of the div  
+    */
+}
+
+@media(min-width: 360px) {
+    .how-it-works {
+        padding-top: 80px;
+    }
+
+    .how-it-works .col {
+        margin-bottom: 64px;
+    }
+
+}
+
+@media(min-width: 768px) {
+    .how-it-works .col {
+        margin-bottom: 32px;
+    }
+}
+
