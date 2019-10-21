@@ -11,8 +11,27 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+section {
+    padding: 64px 0 40px;
+}
+
+@media(min-width: 360px) {
+    section {
+        padding: 80px 0 48px;
+    }
+}
+
+.bg-green {
+    color: rgba(255, 255, 255, 0.96);
+    background-color: rgb(27, 175, 146);
+}
+
 p {  
     color: rgba(74,75,75,0.87);
+}
+
+.bg-green p {
+    color: rgba(255, 255, 255, 0.96);
 }
 
 a {
@@ -33,6 +52,12 @@ a.cta:hover {
     font-weight: 700;
     text-decoration: none;
 }
+
+img.full-width {
+    display: block;
+    width: 100%;
+}
+
 
 /* ****************************************** *
     TOP BAR (NAV BAR)
@@ -244,16 +269,12 @@ button.navbar-toggler:focus {
 }
 
 
-
-
 /* ****************************************** *
     PAGE HEADER 
  * ****************************************** */
 header.hero {
     min-height: 560px;
     padding: 64px 0;
-    color: rgba(255, 255, 255, 0.96);
-    background-color: rgb(27, 175, 146);
 }
 
 h1 {
@@ -274,6 +295,11 @@ h1 {
     justify-content: center;
     font-weight: 700;
     margin: 36px 0 0;
+}
+
+.hero .actions .btn {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 @media(min-width: 480px) {
@@ -313,19 +339,9 @@ h1 {
     font-weight: 600;
     line-height: 20px;
 }
-.btn:hover,
-.btn:focus,
-.btn.focus,
-.btn:active,
-.btn.active {
-    padding-left: 16px;
-    padding-right: 16px;
-}
 
 .btn:not(.nav-link) {
     min-width: 128px;
-    margin-left: 8px;
-    margin-right: 8px;
 }
 
 @media (min-width: 768px) {
@@ -334,6 +350,15 @@ h1 {
         margin-left: 4px;
         margin-right: 4px;
     }
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus,
+.btn:active,
+.btn.active {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .btn-orange {
@@ -428,8 +453,6 @@ h1 {
 }
 
 img.client-bar-icon {
-    display: block;
-    width: 100%;
 }
 
 .icon-bars a img.client-bar-icon {
@@ -449,12 +472,8 @@ img.client-bar-icon {
 
 
 /* ****************************************** *
-    ICON BARS
+    HOW IT WORKS
  * ****************************************** */
-.how-it-works {
-    padding: 64px 0 20px;
-}
-
 .how-it-works .col {
     margin-bottom: 56px;
     display: flex;
@@ -480,14 +499,9 @@ img.client-bar-icon {
 }
 
 @media(min-width: 360px) {
-    .how-it-works {
-        padding-top: 80px;
-    }
-
     .how-it-works .col {
         margin-bottom: 64px;
     }
-
 }
 
 @media(min-width: 768px) {
@@ -496,3 +510,30 @@ img.client-bar-icon {
     }
 }
 
+
+/* ****************************************** *
+    GET STARTED
+ * ****************************************** */
+.get-started .text-wrap {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+img.lead-profiles {
+    max-width: 512px;
+}
+
+@media(min-width: 576px) {
+    .get-started .text-wrap {
+        text-align: left;
+        padding-bottom: 0;
+    }
+}
+
+.line {
+    display: inline-block;
+    margin: 20px 0 16px;
+    width: 76px;
+    background-color: rgb(234, 173, 67);
+    height: 5px;
+}
