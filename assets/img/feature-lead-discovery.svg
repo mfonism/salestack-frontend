@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="54px" viewBox="0 0 68 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-leaddiscovery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Landingpage" transform="translate(-686.000000, -1587.000000)">
+            <g id="feature-leaddiscovery" transform="translate(688.000000, 1589.000000)">
+                <ellipse id="Oval" stroke="#26B89A" stroke-width="3" cx="52" cy="38.2352941" rx="12" ry="11.7647059"></ellipse>
+                <ellipse id="Oval" stroke="#26B89A" stroke-width="2" cx="32" cy="30.3921569" rx="4" ry="3.92156863"></ellipse>
+                <ellipse id="Oval" stroke="#26B89A" stroke-width="3" cx="12" cy="38.2352941" rx="12" ry="11.7647059"></ellipse>
+                <path d="M5,38.2352941 C5,42.0784314 8.08,45.0980392 12,45.0980392" id="Shape" stroke="#90A4AE" stroke-width="3"></path>
+                <path d="M47,38.2352941 C47,42.0784314 50.08,45.0980392 54,45.0980392" id="Shape" stroke="#90A4AE" stroke-width="3"></path>
+                <path d="M64,35.2941176 C64,35.2941176 59.7106383,18.4684685 57.9680851,12.7715951 C56.8957447,9.59194489 55.4212766,5.88235294 48.8531915,5.88235294 C41.7489362,5.88235294 39.2021277,14.3614202 37.3255319,12.7715951 C35.9851064,11.7117117 34.2425532,11.0492846 32.5,11.0492846 C30.7574468,11.0492846 28.8808511,11.7117117 27.6744681,12.7715951 C25.6638298,14.3614202 23.2510638,5.88235294 16.1468085,5.88235294 C9.44468085,5.88235294 7.97021277,9.59194489 7.03191489,12.7715951 C5.15531915,18.4684685 1,35.2941176 1,35.2941176" id="Shape" stroke="#26B89A" stroke-width="3"></path>
+                <path d="M24,35.2941176 C24,35.2941176 26.2295082,39.2156863 32,39.2156863 C37.7704918,39.2156863 40,35.2941176 40,35.2941176" id="Shape" stroke="#26B89A" stroke-width="3"></path>
+                <path d="M53,6.71501477 L53,6.71501477 C53,6.31211389 53,6.0435133 52.87,5.64061241 C52.48,2.41740532 49.75,0 46.5,0 C42.86,0 40,2.9546065 40,6.71501477 C40,7.78941714 40.26,8.8638195 40.65,9.80392157" id="Shape" stroke="#26B89A" stroke-width="3"></path>
+                <path d="M11,6.71501477 L11,6.71501477 C11,6.31211389 11,6.0435133 11.13,5.64061241 C11.52,2.41740532 14.25,0 17.5,0 C21.14,0 24,2.9546065 24,6.71501477 C24,7.78941714 23.74,8.8638195 23.35,9.80392157" id="Shape" stroke="#26B89A" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

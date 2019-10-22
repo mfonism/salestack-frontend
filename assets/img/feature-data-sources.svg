@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="74px" viewBox="0 0 82 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-datasources</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landingpage" transform="translate(-256.000000, -1577.000000)">
+            <g id="feature-datasources" transform="translate(258.000000, 1579.000000)">
+                <circle id="Oval-2" stroke="#26B89A" stroke-width="3" cx="7.5" cy="7.5" r="7.5"></circle>
+                <circle id="Oval-2-Copy-2" stroke="#26B89A" stroke-width="3" cx="15" cy="63" r="7"></circle>
+                <circle id="Oval-2-Copy-3" stroke="#26B89A" stroke-width="3" cx="56" cy="60" r="8"></circle>
+                <path d="M18.1647059,10.173913 L46,18" id="Line" stroke="#90A4AE" stroke-width="2" stroke-linecap="square" stroke-dasharray="0.8888888888888888,4.293333265516493"></path>
+                <path d="M55.375,48.4912399 L57.625,34.2055256" id="Line" stroke="#90A4AE" stroke-width="2" stroke-linecap="square" stroke-dasharray="0.8888888888888888,4.293333265516493"></path>
+                <path d="M22.39318,53.9589497 L46.9135882,30.3294471" id="Line-Copy" stroke="#90A4AE" stroke-width="2" stroke-linecap="square" stroke-dasharray="0.8888888888888888,4.293333265516493"></path>
+                <circle id="Oval-2-Copy" stroke="#26B89A" stroke-width="3" cx="64" cy="18" r="14"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

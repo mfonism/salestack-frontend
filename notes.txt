@@ -1,7 +1,0 @@
-HEAD
-add meta element for specifying the charset
-add shrink-to-fit attribute to meta element which specifies viewport
-
-upgrade from bootstrap3 to bootstrap4
-
-BODY
