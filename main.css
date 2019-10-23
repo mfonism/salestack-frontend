@@ -20,7 +20,7 @@ section {
 @media(min-width: 360px) {
     section {
         /*padding: 80px 0 48px;*/
-        padding: 80px;
+        padding: 80px 0;
     }
 }
 
@@ -69,6 +69,14 @@ a.cta:hover {
 img.full-width {
     display: block;
     width: 100%;
+}
+
+.section-title {
+    margin-bottom: 56px;
+}
+
+.section-actions {
+    margin-top: 56px;
 }
 
 hr.section-separator {
@@ -670,4 +678,79 @@ section.discover {
 
 .testimonials .testimonial-name {
     font-weight: 600;
+}
+
+
+/* ****************************************** *
+    TESTIMONIALS
+ * ****************************************** */
+.plans .plan {
+    background: white;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.plans .plan-title {
+    color: white;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+
+.plan-title h3 {
+    font-size: 18px;
+    padding: 12px;
+}
+
+.plan-title.start {
+    background-color: rgb(144, 164, 174);;
+}
+
+.plan-title.plus {
+    background-color: rgb(38, 184, 154);;
+}
+
+.plan-title.allin {
+    background-color: rgb(66, 91, 103);;   
+}
+
+.plans .plan-description {
+    font-style: italic;
+    text-align: center;
+    margin: 32px 8px 0;
+}
+
+.plans ul {
+    list-style-image: url("./assets/img/check-icon.svg");
+}
+
+.plans li {
+    border-bottom: 1px solid #e9edf0;
+    padding: 12px 0 12px 12px;
+}
+
+.plans li br {
+    line-height: 0;
+}
+
+.plans li .more {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.plans .pricing {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.plans .pricing .price {
+    font-size: 22px;
+}
+
+.plans .pricing small {
+    text-transform: uppercase;
+    font-variant: small-caps;
+    display: inline-block;
+    margin: 12px 0 20px;
 }
