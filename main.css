@@ -514,9 +514,11 @@ h1 {
     padding: 16px 0;
     border-bottom: 1px solid #e9edf0;
 }
+
 .icon-bars .container-fluid {
     max-width: 1024px;
 }
+
 .icon-bars .col {
     /* three in a row, please */
     -ms-flex: 0 0 33.333333%;
@@ -541,6 +543,14 @@ h1 {
         -ms-flex: 0 0 20%;
             flex: 0 0 20%;
         max-width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .icon-bars .col {
+        -ms-flex: 0 0 16.666666%;
+            flex: 0 0 16.666666%;
+        max-width: 16.666666%;        
     }
 }
 
@@ -753,4 +763,55 @@ section.discover {
     font-variant: small-caps;
     display: inline-block;
     margin: 12px 0 20px;
+}
+
+
+/* ****************************************** *
+    PARTNERS
+ * ****************************************** */
+.partners .col span,
+.partners .col img {
+    display: block;
+    width: 100%;
+}
+
+.partners .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-grid.icons .col {
+    /* three in a row, please */
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin: 2.5px 0;
+    /* also flex up so your children can fill you up */
+    display: flex;
+}
+
+@media (min-width: 420px) {
+    .section-grid.icons .col {
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+        max-width: 25%;
+    margin: 5px 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .section-grid.icons .col {
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-grid.icons .col {
+        -ms-flex: 0 0 16.666666%;
+            flex: 0 0 16.666666%;
+        max-width: 16.666666%;        
+    }
 }
