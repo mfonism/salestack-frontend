@@ -815,3 +815,21 @@ section.discover {
         max-width: 16.666666%;        
     }
 }
+
+
+/* ****************************************** *
+    FOOTER
+ * ****************************************** */
+footer {
+    padding: 20px;
+}
+footer,
+footer a {
+    color: white;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+footer a {
+    text-decoration: underline;
+}
