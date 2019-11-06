@@ -29,7 +29,7 @@ The screenshots were taken on a Samsung Galaxy S5.
 
 __Original Design__
 
-![original design: expanded menu on mobile](/_screenshots/original/expanded-menu.png?raw=true)
+<img alt="original design: expanded menu on mobile" src="./_screenshots/original/expanded-menu.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * The menu items when stacked vertically, are altogether taller than the space allotted to the menu itself, and for this reason some of the menu items are hidden out of view.
 * The menu itself is not well-positioned and one could say it has a shy personality :).
@@ -37,7 +37,7 @@ __Original Design__
 
 __My Fix__
 
-![my fix: expanded menu on mobile](/_screenshots/fix/expanded-menu.png?raw=true)
+<img alt="my fix: expanded menu on mobile" src="./_screenshots/fix/expanded-menu.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * The menu is large enough for all its items to be visible.
 * The menu expands as a dialog box, horizontally centred on the page, with shadows so it looks raised off of the page.
@@ -48,13 +48,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: top app bar on scrolled page](/_screenshots/original/topbar.png?raw=true)
+<img alt="original design: top app bar on scrolled page" src="./_screenshots/original/topbar.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * The top app bar gets fixed in a position where almost half of its height is scrolled out of view through the top of the screen (notice how the logo and the menu icon are no longer legible).
 
 __My Fix__
 
-![my fix: top app bar on scrolled page](/_screenshots/fix/topbar.png?raw=true)
+<img alt="my fix: top app bar on scrolled page" src="./_screenshots/fix/topbar.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * The top app bar gets fixed such that its top is flush with the top of the screen.
 
@@ -63,13 +63,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: expanded menu on mobile + top app bar on scrolled page](/_screenshots/original/expanded-menu-with-topbar.png?raw=true)
+<img alt="original design: expanded menu on mobile + top app bar on scrolled page" src="./_screenshots/original/expanded-menu-with-topbar.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * A cascade of the last two identified issues.
 
 __My Fix__
 
-![my fix:  expanded menu on mobile + top app bar on scrolled page](/_screenshots/fix/expanded-menu-with-topbar.png?raw=true)
+<img alt="my fix:  expanded menu on mobile + top app bar on scrolled page" src="./_screenshots/fix/expanded-menu-with-topbar.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Previous two fixes apply.
 
@@ -78,13 +78,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: page scrollx](/_screenshots/original/page-scrollx.png?raw=true)
+<img alt="original design: page scrollx" src="./_screenshots/original/page-scrollx.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Page is wider than the screen, and therefore is able to scroll sidewards.
 
 __My Fix__
 
-![my fix: page scrollx](/_screenshots/fix/page-scrollx.png?raw=true)
+<img alt="my fix: page scrollx" src="./_screenshots/fix/hero.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Page is same width with screen. No sideward scrolling.
 
@@ -93,13 +93,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: little or no breathing space around elements](/_screenshots/original/spaces.png?raw=true)
+<img alt="original design: little or no breathing space around elements" src="./_screenshots/original/spaces.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Little or no breathing space existing around logical groups of elements. Increases the cognitive load for telling groups of elements apart.
 
 __My Fix__
 
-![my fix: sufficient breathing space exists around elements](/_screenshots/fix/spaces.png?raw=true)
+<img alt="my fix: sufficient breathing space exists around elements" src="./_screenshots/fix/spaces.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Sufficient breathing space making it easy to tell groups of elements apart.
 
@@ -108,13 +108,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: sections divided by horizontal line](/_screenshots/original/section-divider.png?raw=true)
+<img alt="original design: sections divided by horizontal line" src="./_screenshots/original/section-divider.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Sections are divided using thin horizontal lines. These dividers are ideal most of the time, but it is still a little difficult to spot the boundaries between sections with white backgrounds.
 
 __My Fix__
 
-![my fix: subtle, different coloring of sections](/_screenshots/fix/section-divider.png?raw=true)
+<img alt="my fix: subtle, different coloring of sections" src="./_screenshots/fix/section-divider.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * In addition to the horizontal dividers, alternating sections that would have otherwise had white background are now colored with a subtle shade of gray to aid the visual identification of section boundaries.
 
@@ -123,13 +123,13 @@ __My Fix__
 
 __Original Design__
 
-![original design: inconsistent, unintuitive sizing of things](/_screenshots/original/sizing-things.png?raw=true)
+<img alt="original design: inconsistent, unintuitive sizing of things" src="./_screenshots/original/sizing-things.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Font sizes aren't consistent throughout the site, and some images are _way_ smaller than they should be. In the snapshot above, the texts are too large compared to the image they accompany.
 
 __My Fix__
 
-![my fix: consistent sizing of things](/_screenshots/fix/sizing-things.png?raw=true)
+<img alt="my fix: consistent sizing of things" src="./_screenshots/fix/sizing-things.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Font and image sizes are consistent and intuitive in relation to each other.
 
@@ -138,13 +138,11 @@ __My Fix__
 
 __Original Design__
 
-![original design: page scrolls downwards beyond footer](/_screenshots/original/page-scrolly.png?raw=true)
+<img alt="original design: page scrolls downwards beyond footer" src="./_screenshots/original/page-scrolly.png?raw=true" width=360 height=640 style="box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.69); border: 1px solid rgba(0, 0, 0, 0.1);" />
 
 * Page scrolls downwards beyond footer, to leave behind a large space between footer and bottom of screen.
 
 __My Fix__
-
-![my fix: no more downward scrolling beyond footer](/_screenshots/fix/page-scrolly.png?raw=true)
 
 * Page doesn't scroll beyond footer.
 
