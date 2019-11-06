@@ -37,7 +37,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: expanded menu on mobile" src="./_screenshots/fix/expanded-menu.png?raw=true" width=360 height=640 />
+<img alt="my fix: expanded menu on mobile" src="./_screenshots/fix/expanded-menu.png?raw=true" width=360 height=640 />
 
 * The menu is large enough for all its items to be visible.
 * The menu expands as a dialog box, horizontally centred on the page, with shadows so it looks raised off of the page.
@@ -54,7 +54,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: top app bar on scrolled page" src="./_screenshots/fix/topbar.png?raw=true" width=360 height=640 />
+<img alt="my fix: top app bar on scrolled page" src="./_screenshots/fix/topbar.png?raw=true" width=360 height=640 />
 
 * The top app bar gets fixed such that its top is flush with the top of the screen.
 
@@ -69,7 +69,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix:  expanded menu on mobile + top app bar on scrolled page" src="./_screenshots/fix/expanded-menu-with-topbar.png?raw=true" width=360 height=640 />
+<img alt="my fix:  expanded menu on mobile + top app bar on scrolled page" src="./_screenshots/fix/expanded-menu-with-topbar.png?raw=true" width=360 height=640 />
 
 * Previous two fixes apply.
 
@@ -84,7 +84,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: page scrollx" src="./_screenshots/fix/page-scrollx.png?raw=true" width=360 height=640 />
+<img alt="my fix: page scrollx" src="./_screenshots/fix/hero.png?raw=true" width=360 height=640 />
 
 * Page is same width with screen. No sideward scrolling.
 
@@ -99,7 +99,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: sufficient breathing space exists around elements" src="./_screenshots/fix/spaces.png?raw=true" width=360 height=640 />
+<img alt="my fix: sufficient breathing space exists around elements" src="./_screenshots/fix/spaces.png?raw=true" width=360 height=640 />
 
 * Sufficient breathing space making it easy to tell groups of elements apart.
 
@@ -114,7 +114,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: subtle, different coloring of sections" src="./_screenshots/fix/section-divider.png?raw=true" width=360 height=640 />
+<img alt="my fix: subtle, different coloring of sections" src="./_screenshots/fix/section-divider.png?raw=true" width=360 height=640 />
 
 * In addition to the horizontal dividers, alternating sections that would have otherwise had white background are now colored with a subtle shade of gray to aid the visual identification of section boundaries.
 
@@ -129,7 +129,7 @@ __Original Design__
 
 __My Fix__
 
-<img alt="fix fix: consistent sizing of things" src="./_screenshots/fix/sizing-things.png?raw=true" width=360 height=640 />
+<img alt="my fix: consistent sizing of things" src="./_screenshots/fix/sizing-things.png?raw=true" width=360 height=640 />
 
 * Font and image sizes are consistent and intuitive in relation to each other.
 
